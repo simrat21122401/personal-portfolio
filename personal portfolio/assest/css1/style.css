@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacques+Francois+Shadow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500;600;700&display=swap');
+
+
+:root {
+    --color-body: #b6cbce;
+    --color-heading: #eef3db;
+    --color-base: #090909;
+    --color-base2: #020202;
+    --color-brand: #e0f780;
+    --color-brand2: #deff58;
+    --sidbar-width: 240px;
+    --font-base: "Jacques Francois Shadow";
+    --font-base2: "Bai Jamjuree"
+}
+
+body {
+    /* background-image: url(/assest/images/pexels-maria-orlova-4947569.jpg); */
+    /* background-color: var(--color-base);
+    color: var(--color-body);
+    font-family: var(--font-base2), sans-serif; */
+    /* background-repeat: no-repeat;
+    background-size: cover; */
+    /* background: linear-gradient(#212121, #212121) padding-box,
+        linear-gradient(145deg, transparent 35%, #e81cff, #40c9ff) border-box; */
+    background-image: url(/pngtree-blue-blur-background-hd-picture-image_1914175.jpg);
+    border: 2px solid transparent;
+    padding: 32px 24px;
+
+
+    background-size: cover;
+    backface-visibility: visible;
+    color: white;
+
+    gap: 20px;
+    box-sizing: border-box;
+    border-radius: 16px;
+
+
+}
+
+
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: var(--color-heading);
+    font-weight: 700;
+    /* transform: skewX(10deg);
+    transition: all 0.3s; */
+}
+
+a {
+    /* color: var(--color-body); */
+    transition: all 0.4s ease;
+    text-decoration: none;
+    color: beige;
+}
+
+a:hover {
+    color: var(--color-brand);
+    /* text-shadow: 0px -1px 15px rgba(141, 126, 126, 0.81); */
+
+
+}
+
+img {
+    width: 100%;
+}
+
+.text-brand {
+    color: var(--color-brand);
+}
+
+.shadow-effect {
+    transition: all 0.3s;
+    background-color: black;
+    /* transform: skew(10deg); */
+
+    transform: scale(0.95);
+}
+
+.shadow-effect:hover {
+    box-shadow: 0px 0px 30px 1px rgba(237, 241, 239, 0.3);
+    transform: skewX(10deg);
+}
+
+.service {
+    /* border-radius: 22px; */
+    /* background-image: linear-gradient(163deg, #00ff75 0%, #3700ff 100%); */
+    border-radius: 20px;
+    transition: all .3s;
+    background-color: rgb(11, 11, 11);
+}
+
+.iconbox {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    background-color: var(--color-brand);
+    color: var(--color-base);
+    border-radius: 22px;
+    /* box-shadow: inset -12px -8px 40px #d30e0e20; */
+    /* box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px; */
+}
+
+.bg-base {
+    background-color: var(--color-base);
+}
+
+.full-height {
+    min-height: 100vh;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+#glow {
+    text-shadow: 4px 4px 2px rgba(251, 249, 235, 0.6);
+
+    font-size: 60px;
+    color: #f3f705;
+    font-family: "Arial Black", Gadget, sans-serif;
+
+
+
+
+}
+
+/* NAVBAR */
+.navbar {
+    border-radius: 3px;
+    box-shadow: inset -5px -5px 10px 0px rgba(255, 255, 255, 0.5), inset 5px 5px 10px 0px rgba(0, 0, 0, 0.3);
+    padding: 12px;
+    background-color: var(--color-base);
+}
+
+.navbar .nav-link {
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #0beba8;
+
+    transition: all 0.3s;
+
+
+}
+
+.nav-link {
+    gap: 20px;
+}
+
+
+.navbar .nav-link :hover {
+    color: var(--color-brand);
+}
+
+.navbar .nav-link .active {
+    color: #deff58;
+}
+
+@media(min-width: 992px) {
+    .navbar {
+        min-height: 100vh;
+        width: var(--sidbar-width);
+        background: linear-gradient(rgba(3, 63, 71, 0.8), rgba(3, 63, 71, 0.8)), url();
+        background-size: cover;
+        background-position: center;
+    }
+
+    .navbar-brand img {
+        border: 8px solid var(--color-brand);
+    }
+
+    /* Content wrapper */
+    #content-wrapper {
+        padding-left: var(--sidbar-width);
+    }
+
+
+}
+
+/* btn */
+.btn {
+    padding: 12px 28px;
+    font-weight: 700px;
+
+    color: rgb(234, 234, 234);
+    font-weight: 700;
+    transition: 0.6s;
+    box-shadow: 0px 0px 60px #1f4c65;
+
+    /* -webkit-box-reflect: below 10px linear-gradient(to bottom, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.4)); */
+
+}
+
+/* .btn-brand {
+    background-color: var(--color-brand);
+    border-color: var(--color-brand);
+} */
+
+.btn-brand:hover,
+.btn-brand:focus {
+    background: rgb(2, 29, 78);
+    background: linear-gradient(270deg, rgba(2, 29, 78, 0.681) 0%, rgba(31, 215, 232, 0.873) 60%);
+    color: rgb(4, 4, 38);
+    -webkit-box-reflect: below 10px linear-gradient(to bottom, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.4));
+}
+
+.btn:active {
+    scale: 0.92;
+}
+
+.link-custom {
+    font-weight: 700;
+    position: relative;
+}
+
+.link-custom::after {
+    content: "";
+    width: 0%;
+    height: 2px;
+    background-color: var(--color-brand);
+    position: absolute;
+    left: 0;
+    top: 110%;
+    transition: all 0.4s;
+}
+
+.link-custom:hover::after {
+    width: 100%;
+}
+
+/* card custom */
+.card-custom .card-custom-image {
+    overflow: hidden;
+}
+
+.card-custom .card-custom-image img {
+    transition: all 0.4s ease;
+}
+
+.card-custom:hover .card-custom-image img {
+    transform: scale(1.1);
+
+}
+
+.card-custom {
+    border-radius: 22px;
+}
+
+.rounded-4 {
+    border-radius: 22px;
+}
+
+/* CONTACT */
+#contact .form-control {
+    background-color: var(--color-base);
+    border-color: var(--color-base);
+    color: var(--color-body);
+
+}
+
+#contact .form-control:focus {
+    border-color: var(--color-brand);
+    border-color: none;
+    /* background: linear-gradient(45deg, #fb0094, #0000ff, #00ff00, #ffff00, #ff0000, #fb0094, */
+    /* #0000ff, #00ff00, #ffff00, #ff0000); */
+}
+
+#contact .form-control::placeholder {
+    color: var(--color-body);
+}
+
+#contact input .form-control {
+    height: 44px;
+
+}
+
+
+
+
+
+
+
+
+
+/*  social icon */
+
+
+
+.social-icons a {
+    width: 40px;
+    height: 40px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: var(--color-base); */
+    border-radius: 100px;
+    text-decoration: none;
+
+}
+
+.social-links {
+    border-radius: 100px;
+    font-size: 30px;
+    /* color: yellow; */
+}
