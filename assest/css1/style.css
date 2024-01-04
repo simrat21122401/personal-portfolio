@@ -15,32 +15,14 @@
 }
 
 body {
-    /* background-image: url(/assest/images/pexels-maria-orlova-4947569.jpg); */
-    /* background-color: var(--color-base);
-    color: var(--color-body);
-    font-family: var(--font-base2), sans-serif; */
-    /* background-repeat: no-repeat;
-    background-size: cover; */
-    /* background: linear-gradient(#212121, #212121) padding-box,
-        linear-gradient(145deg, transparent 35%, #e81cff, #40c9ff) border-box; */
-    background-image: url(/pngtree-blue-blur-background-hd-picture-image_1914175.jpg);
+    background-color: #020202;
     border: 2px solid transparent;
     padding: 32px 24px;
-
-
-    background-size: cover;
-    backface-visibility: visible;
-    color: white;
-
+    color: rgb(248, 240, 240);
     gap: 20px;
     box-sizing: border-box;
     border-radius: 16px;
-
-
 }
-
-
-
 
 h1,
 h2,
