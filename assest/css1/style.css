@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Jacques+Francois+Shadow&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Maps&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akronim&family=Rubik+Doodle+Shadow&family=Rubik+Maps&display=swap');
 
 
 :root {
@@ -108,17 +110,6 @@ img {
     border-bottom: 2px solid rgba(255, 255, 255, 0.1);
 }
 
-#glow {
-    text-shadow: 4px 4px 2px rgba(251, 249, 235, 0.6);
-
-    font-size: 60px;
-    color: #f3f705;
-    font-family: "Arial Black", Gadget, sans-serif;
-
-
-
-
-}
 
 /* NAVBAR */
 .navbar {
@@ -238,7 +229,9 @@ img {
 }
 
 .card-custom {
-    border-radius: 22px;
+
+    border-radius: 50px;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
 
 .rounded-4 {
@@ -270,13 +263,6 @@ img {
 }
 
 
-
-
-
-
-
-
-
 /*  social icon */
 
 
@@ -297,4 +283,58 @@ img {
     border-radius: 100px;
     font-size: 30px;
     /* color: yellow; */
+}
+
+
+#glow {
+    text-shadow: 4px 4px 2px rgba(244, 243, 240, 0.6);
+    /* font-family: 'Akronim', system-ui; */
+    font-family: 'Rubik Doodle Shadow', system-ui;
+    font-size: 60px;
+    color: #f8f7f1;
+}
+
+
+
+
+
+#glow:hover {
+
+    animation-name: color-change;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    transition: all ease-out 0.4s;
+    /* font-family: 'Rubik Maps', system-ui; */
+    font-family: 'Rubik Doodle Shadow', system-ui;
+}
+
+@keyframes color-change {
+
+    0%,
+    18%,
+    20%,
+    50.1%,
+    60%,
+    65.1%,
+    80%,
+    90.1%,
+    92% {
+        color: #f2f6f7;
+        text-shadow: none;
+    }
+
+    18.1%,
+    20.1%,
+    30%,
+    50%,
+    60.1%,
+    65%,
+    80.1%,
+    90%,
+    92.1%,
+    100% {
+        color: #fff;
+        text-shadow: 0 0 10px #03bcf4, 0 0 10px #03bcf4, 0 0 10px #03bcf4, 0 0 20px #03bcf4, 0 0 40px #03bcf4, 0 0 80px #03bcf4, 0 0 160px #03bcf4;
+    }
 }
