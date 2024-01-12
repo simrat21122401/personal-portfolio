@@ -81,6 +81,15 @@ img {
     background-color: rgb(11, 11, 11);
 }
 
+/* .backgroundimg {
+    border-bottom: 2px solid rgba(255, 255, 255, 0.10);
+    background: url(https://s3-alpha-sig.figma.com/img/20dc/f20f/6b7a2eced6e9657881178d81cff12b47?Expires=1705881600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=jMSCyGvJXQ8kVwA~hpDrMjUyA~cY1CNxOlvZS0F5yu-YmhyoWPFa77qoFzcwipkR7Cpfvoc-IaUv5Rsxybct9lVKR7YYrhmGXcWkQgYKr0Hj3FOA4ebc4~PCX-srr~raJCOwAMlhWtKPdGRmXma-~EVBvouPqzGBiL2aX4NiRgUrvzDFqn6egr1WH-C1VB0An6YiUFeISPrzI0ZTt39yz1Tt1YKZr~sxKd1ciESAZhlb~zMBXfrjellFBTao0sCBWxRlzYt0Z1WDiiz1uRAfkbG6Iro85s1OVgq-qRgXRraIJ~oNXtRnQMRA3sNDCAi3B~lCVXxfnbVHqPARkjoErA__);
+     lightgray 50% 
+     background-size: cover ;
+     background-r
+     no-repeat, #212529;
+} */
+
 .iconbox {
     width: 60px;
     height: 60px;
